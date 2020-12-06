@@ -1,0 +1,145 @@
+:root{
+    --colorTextos: #49454567;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    
+        height: 100vh;
+        background-image: linear-gradient(to top, rgba(172, 203, 238, 0.5) 0%, rgba(231, 240, 253, 0.5) 100%), url(fotofarmacia_2.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+      background-position: center;
+    
+    
+   
+}
+head{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(172, 203, 238, 0.5) 0%, rgba(231, 240, 253, 0.5) 100%), url(fotofarmacia_2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+  background-position: center;
+}
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+
+
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover >ul{
+    display: block;
+
+}
+.registro{
+    width: 400px;
+    background-image: linear-gradient(to top, rgba(172, 203, 238, 0.5) 0%, rgba(231, 240, 253, 0.5) 100%);
+    padding: 30px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(44, 32, 32);
+}
+.registro.h2{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.con{
+    width: 100%;
+    background: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #111111;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    background: rgb(236, 152, 164);
+    border: none;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    color: #111111;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.Contenido
+{
+    width: 90%;
+    max-width: 1500px;
+    margin: 40px auto;
+}
+
+.Contenido h1
+{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;  
+}
+
+
+
+
+footer
+{
+    padding: 20px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.piePag
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid brown;
+}
+
+.Inf-footer
+{
+    text-align: center;
+}
+
+.Inf-footer h4
+{
+    color: brown;
+    border-bottom: 3px solid brown;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.Derechos
+{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
